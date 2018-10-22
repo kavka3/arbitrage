@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000'
+  apiUrl: 'http://localhost:3000',
+  sentryDSN: 'https://b04bb1b24d9c4d939472552f42b51489@sentry.io/1305942'
 };
 
 /*
