@@ -47,12 +47,12 @@ export class TickerComponent implements OnInit {
       });
   }
 
-  fetchData(): void {
-    this.loading = true;
-    this.tickerService.fetchData()
-      .subscribe(ticker => {
-        this.getTicker()
-      });
-  }
+  // fetchData(): void {
+  //   this.loading = true;
+  //   this.tickerService.fetchData()
+  //     .subscribe(ticker => {
+  //       this.getTicker()
+  //     });
+  // }
 
 }
